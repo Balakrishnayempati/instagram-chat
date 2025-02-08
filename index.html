@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .what
+    {
+       border: 2px solid black;
+       width: 30%;
+       height: 83vh;
+       margin: auto;
+       border-radius: 20px;
+       box-shadow: 0px 0px 10px 10px;
+       background-color: rgba(22, 8, 9, 0.474);
+      
+    }
+    .what:hover
+    {
+        color: black;
+    }
+    
+    .child
+    {
+        background-color: rgb(75, 18, 18);
+        height: 10%;
+        border-top-left-radius: 16px;
+        border-top-right-radius:16px ;
+        border: 2px solid rgb(248, 248, 248);
+        z-index: -1;
+        box-shadow: 14px 10px 8px 0px black inset;
+    }
+    .child
+    {
+        font-size:50px;
+        margin-left: 0px;
+        z-index: -1;
+    }
+    #ins
+    {
+        margin-left: 8px;
+        margin-top: 4px;
+        text-shadow: 4px 0px 10px;
+        color: rgba(228, 19, 19, 0.714);
+    }
+    .inst
+    {
+        color:black;
+        margin-top: -45px;
+        margin-left: 30px;
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 0px 4px 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #ph
+    {
+        color: white;
+        margin-left: 50px;
+
+    }
+    #ph:hover
+    {
+color: black;
+    }
+    #vc:hover
+    {
+        color: black;
+    }
+    #dot:hover
+    {
+      color: black;
+    }
+    #vc
+    {
+        color:white;
+        margin-left: 50px;
+    }
+    #dot
+    {
+        color: white;
+        margin-left: 60px;
+    }
+    .me
+    {
+        border: 2px solid rgb(13, 2, 2);
+        height: 440px;
+        margin-top: 5px;
+        overflow: scroll;
+        scrollbar-width: none;
+        border-radius: 0px;
+        box-shadow: 0px 1px 1px 2px;
+    }
+    .right
+
+    {
+        text-align: right;
+    }
+    .left
+    {
+        margin-left: 2px;
+    }
+    span
+    {
+        background-color: brown;
+        font-family:monospace;
+        font-size: 40px;
+         border-radius: 7px;
+        padding: 0px;
+    }
+    .date
+    {
+        text-align: center;
+        font-size: 25px;
+        position: sticky;
+        top: 1px;
+        background-color: antiquewhite;
+        width: 30%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    .time
+    {
+        font-size: 18px;
+        color: white;
+        
+        } 
+    .fa-solid
+    {
+        font-size: 20px;
+        color: aqua;
+        
+    }
+    .innp
+    {
+        width: 220px;
+        margin-left: -8px;
+        padding: 13px ;
+        border-radius: 10px;
+        opacity: 0.8;
+        box-shadow: 0px 8px 10px black inset;
+        border: 2px solid rgb(244, 240, 240);
+    }
+    #mic
+    {
+   color: black;
+   font-size: 30px;
+   text-shadow: 4px 4px 10px ;
+    }
+    #cam
+    {
+color: black;
+font-size: 30px;
+text-shadow: 4px 4px 10px ;
+    }
+    #file
+    {
+color: black;
+font-size: 30px;
+text-shadow: 4px 4px 10px ;
+    }
+    #share
+    {
+color: black;
+font-size: 30px;
+text-shadow: 4px 4px 10px ;
+    }
+    #key
+    {
+color: black;
+font-size: 30px;
+margin-left: -6px;
+text-shadow: 4px 4px 10px ;
+    }
+    #key:hover
+    {
+        color: white;
+    }
+    #file:hover{
+        color: white;
+    }
+    #mic:hover
+    {
+        color: white;
+    }
+    #cam:hover
+    {
+        color: white;
+    }
+    #share:hover
+    {
+        color: white;
+    }
+    
+   
+
+</style>
+<body>
+    <div class="what">
+<div class="child">
+    <i id="ins" class="fa-brands fa-instagram"></i>
+<div class="inst">instagram <i id="ph" class="fa-solid fa-phone"></i><i id="vc" class="fa-solid fa-video"></i><i id="dot" class="fa-solid fa-ellipsis-vertical"></i></div>
+<div class="me">
+    <div class="date">01-02-2025</div>
+    <div class="left"><span>Hi</span></div>
+    <div class="right"><span>Hello <i class="time">4:00</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></span></div>
+    <div class="left"><span>how are you </span></div>
+    <div class="right"><span>iam fine <i class="time">4:05</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+    <div class="left"><span>w r u</span></div>
+    <div class="right"><span>ofc <i class="time">4:10</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+    <div class="right"><span>wr r u<i class="time">4:12</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+    <div class="left"><span>bus-stop</span></div>
+    <div class="right"><span>okay <i class="time">4:15</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+    <br>
+    <div class="date">02-02-2025</div>
+ <div class="left"><span>Hi</span></div>
+ <div class="right"><span>Hello <i class="time">12:10</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></span></div>
+ <div class="left"><span>how are you </span></div>
+ <div class="right"><span>iam fine <i class="time">12:20</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+ <div class="left"><span>w r u</span></div>
+ <div class="right"><span>ofc <i class="time">12:22</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div><br>
+ <div class="date">Yesterday</div>
+ <div class="left"><span>Hi</span></div>
+ <div class="right"><span>Hello <i class="time">10:01</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></span></div>
+ <div class="left"><span>how are you </span></div>
+ <div class="right"><span>iam fine <i class="time">10:15</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+ <div class="left"><span>w r u</span></div>
+ <div class="right"><span> ofc <i class="time">10:20</i> <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div><br>
+<div class="date">Today</div><br>
+<div class="left"><span>Hi</span></div>
+<div class="right"><span>Hello <i class="time">10:25</i>  <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></span></div>
+<div class="left"><span>how are you </span></div>
+<div class="right"><span>iam fine <i class="time">10:30</i>  <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+<div class="left"><span>w r u</span></div>
+<div class="right"><span>ofc <i class="time">10:45</i>  <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+<div class="left"><span>Hi</span></div>
+    <div class="right"><span>Hello <i class="time">11:08</i>  <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i></span></div>
+    <div class="left"><span>how are you </span></div>
+    <div class="right"><span>iam fine <i class="time">11:15</i>  <i class="fa-solid fa-check"></i><i class="fa-solid fa-check"></i> </span></div>
+    <div class="left"><span>w r u</span></div>
+    <div class="right"><span>ofc <i class="time">11:22</i>  <i class="fa-solid fa-check"></i> </span></div>
+</div>
+<div>
+   &nbsp;<i id="key" class="fa-solid fa-keyboard"></i> <i id="file" class="fa-solid fa-file"></i> <input class="innp" type="text" placeholder="text a messege here......."> <i id="mic" class="fa-solid fa-microphone"></i> <i id="cam" class="fa-solid fa-camera"> </i>  <i id="share" class="fa-solid fa-share"></i></div>
+</div>
+</div>
+
+    </div>
+   
+</body>
+</html>
